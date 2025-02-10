@@ -7,7 +7,11 @@ import {
 import { ArrowRightIcon } from '@heroicons/react/20/solid';
 import { Button } from './button';
 
+type props = {lol: string}
+
 export default function LoginForm() {
+  const bad = {hey: 11, lol: "sas"}
+  const good: props = bad;
   return (
     <form className="space-y-3">
       <div className="flex-1 rounded-lg bg-gray-50 px-6 pb-4 pt-8">
